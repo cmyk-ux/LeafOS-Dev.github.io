@@ -1,0 +1,95 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+:root {
+	/*define uma variavel chamada color-accent, com a cor "principal"*/
+	--color-accent: #01FBA0;
+}
+
+.git{
+	/*position: absolute;*/
+    padding: 40px 0 0 40%;
+}
+.tevo{
+	background-image: url("https://avatars3.githubusercontent.com/u/32363392?s=460&v=4");
+	background-size: cover;
+	width: 270px;
+	height: 270px;
+	border: solid;
+	border-color: var(--color-accent);
+	border-width: 5px;
+	margin: 50px 0 0 200px;
+	border-radius: 5%;
+	text-align: center;
+	padding: 20px;
+	color: rgba(0, 0, 0, 0);
+	transition-duration: 1s;
+}
+
+.tevo:hover {
+	background: black;
+	transition-duration: 1s;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+.blur {
+	position: absolute;
+	width: 270px;
+	height: 270px;
+	filter: blur(15px);
+}
+
+.description {
+	text-align: left;
+	font-weight: 200;
+}
+
+.tevo:hover .tevod {
+	display: grid;
+	margin: -250px 0 0 50%;
+}
+
+}
+.pedro {
+	background-image: url("https://avatars3.githubusercontent.com/u/54064975?s=460&v=4");
+	background-size: cover;
+	width: 270px;
+	height: 270px;
+	border: solid;
+	border-color: red /*var(--color-accent)*/;
+	border-width: 5px;
+	margin: 200px 0 0 35%;
+	border-radius: 5%;
+	text-align: center;
+}
+
+.tag {
+	position: absolute;
+	color: #fff;
+	background: var(--color-accent);
+	background-size: cover !important;
+	margin: 5px auto;
+	font-size: 13px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 180px;
+	height: 40px;
+	line-height: 40px;
+	border-color: #fff;
+	border-radius: 5px;
+}
+
+.pman {
+	background: url('https://camo.githubusercontent.com/de7e01f7b358477c378873edcf998cf8a456ca20/68747470733a2f2f6e696b6f746f6d61642e6769746875622e696f2f6d61747269782d7261696e2f707265766965772e676966');
+	margin: 8px 0 0 17.5%;
+}
+.ux {
+	background: url('https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif');
+	margin: 8px 0 0 70%;
+}
+#pm{
+	padding: 0 0 0 15.5%;
+}
